@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family: "fancy";
+    src: url(FrederickatheGreat-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "gaegu";
+    src: url(Gaegu-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "puter";
+    src: url(Web437_Acer710_CGA.woff) format("truetype");
+}
+.buttons{
+    background-color: #e6d9c7; 
+    width: 13em; 
+    border-radius: 1em; 
+    height: 3em;
+    outline: solid #d4c2a9 0.2em; 
+    text-align: center; 
+    align-items: center; 
+    display: grid; 
+    font-family: puter; 
+    box-shadow: #00000084 1px 1px 2px;
+}
+.buttons:hover{
+    background-color: #d4c2a9;
+    outline: solid #e6d9c7 0.2em; 
+    text-shadow:  #00000084 0px 0px 3px;
+    cursor: pointer; 
+    color: rgb(239, 239, 239)
+}
+.trans-gradient {
+    background-image: linear-gradient(to left, #32bcf6 20%, #f7b0c4 20% 40%, #fff 40% 60%, #f7b0c4 60% 80%, #32bcf6 80% 100%) !important;
+    background-position: 0% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(255, 255, 255, 0.307);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+  }
+
+
+.sides{
+    width: 15em;
+    background-color: #c2b29b;
+    height: 30em;
+    border-radius: 1em;
+    box-shadow:   0px 0px 5px #00000084; 
+}
+.mainpart{
+    padding-left: 0%;
+    margin-left: 2em;
+    margin-right: 2em;
+    flex-grow: 10 ;
+    background-color: #d4c2a9;
+    border-radius: 2em; 
+    font-family: puter; 
+    box-shadow:   0px 0px 5px #00000084;
+
+}
+/* 
+body{
+    animation: fade_in 1s
+}
+@keyframes fade_in {
+    from {
+        opacity: 0;
+        filter: blur(2px);
+    }
+    to {
+        opacity: 1;
+        filter: blur(0);
+    }
+}*/
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:3em;
+    width:100%;
+    background:#999;
+    border-radius: 1em 1em 0em 0em; 
+ }
